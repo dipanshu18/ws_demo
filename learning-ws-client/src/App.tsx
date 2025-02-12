@@ -19,6 +19,7 @@ export default function App() {
 
   useEffect(() => {
     const ws = new WebSocket("wss://ws-demo-8oac.onrender.com");
+    // const ws = new WebSocket("ws://localhost:7777");
 
     setSocket(ws);
 
